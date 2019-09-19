@@ -29,7 +29,7 @@ function getGiphyData(topic) {
         for (var i = 0; i < response.data.length; i++) {
             var newDiv = "";
 
-            newDiv =" <div class='gifBox'> <img class='gifDiv' id='gif-" + i + "' onclick='stopMotion(" + i + ")' now='moving' stillUrl='" + response.data[i].images.fixed_height_still.url + "' movingUrl='" + response.data[i].images.fixed_height.url + "' src='" + response.data[i].images.fixed_height.url + "'><div class='gifTitleDiv'>Rated: "+response.data[i].rating+"</div></div>";
+            newDiv =" <div class='gifBox'> <img class='gifDiv' id='gif-" + "'(" + i + ")' now='moving' stillUrl='" + response.data[i].images.fixed_height_still.url + "' movingUrl='" + response.data[i].images.fixed_height.url + "' src='" + response.data[i].images.fixed_height.url + "'><div class='gifTitleDiv'>Rated: "+response.data[i].rating+"</div></div>";
             document.getElementById("results").innerHTML += newDiv;
         }
     });
