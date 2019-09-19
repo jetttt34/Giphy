@@ -1,0 +1,77 @@
+html{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/42/d0/0c/42d00cfaf2cedabc7eac44e94d390c49.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#headerId{
+    color: white;
+    margin-left: 10px;
+    float: left;
+}
+
+.dropdown-toggle{
+    margin-top: 10px;
+    margin-right: 25px;
+    float: right;
+}
+
+#buttonsDiv{
+    clear: both;
+}
+
+.clear{
+    clear: both;
+}
+.buttonToClick{
+    background-color: rgba(235, 0, 0, 0.767);
+    /* height: 20px; */
+    /* width:30px; */
+    font-size: 18px;
+    padding:7px;
+    margin:5px; 
+    float: left;
+}
+#addTopic{
+    background-color: rgb(255, 217, 0); 
+    margin:10px;
+    /* height:20px; */
+    font-size: 24px;
+}
+input{
+    font-size: 24px;
+    margin:10px;
+}
+#topicInput{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin:5px;
+}
+.gifDiv{
+    float: left;
+    padding:1px;
+    margin:0px;
+    border: 2px;
+    border-style: outset;
+    margin:0px 5px 0px 5px;
+}
+.gifBox{
+    text-align: center;
+    float: left;
+    margin:1px;
+    background-color:rgb(218, 218, 218);
+    padding:0px;
+
+
+}
+.gifTitleDiv{
+    margin: 0 auto;
+    font-weight: bolder;
+    padding-bottom:7px;
+    font-size:20px;
+}
